@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://localhost:8000/ekids/</loc>
-         <lastmod>2024-12-05</lastmod>
+         <loc>https://kirilche.github.io/pykids/</loc>
+         <lastmod>2024-12-07</lastmod>
+    </url>
+    <url>
+         <loc>https://kirilche.github.io/pykids/lessons/page1/</loc>
+         <lastmod>2024-12-07</lastmod>
+    </url>
+    <url>
+         <loc>https://kirilche.github.io/pykids/lessons/page2/</loc>
+         <lastmod>2024-12-07</lastmod>
+    </url>
+    <url>
+         <loc>https://kirilche.github.io/pykids/lessons/any/</loc>
+         <lastmod>2024-12-07</lastmod>
     </url>
 </urlset>
