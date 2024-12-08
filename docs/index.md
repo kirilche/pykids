@@ -5,7 +5,7 @@
 ## Зміст довідника { data-search-exclude }
 * :material-information-outline: Основні відомості
 * :material-cog: Налаштування середовища
-* :one: Перша програма
+* :fontawesome-solid-1: Перша програма
 * :material-shape-plus-outline: Типи даних та змінні
 * :material-contain: Типи-контейнери
     - :material-code-brackets: списки
@@ -20,4 +20,4 @@
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
-Обожнюю :material-laptop: програмування та захоплююсь :material-snake: Python
+:octicons-heart-fill-24:{ .heart } Обожнюю :material-laptop: програмування та захоплююсь :material-snake: Python
