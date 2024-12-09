@@ -5,8 +5,8 @@
 ## Зміст довідника { data-search-exclude }
 * :material-information-outline: Основні відомості
 * :material-cog: Налаштування середовища
-* :fontawesome-solid-1: Перша програма
-* :material-shape-plus-outline: Типи даних та змінні
+* :fontawesome-solid-1: [Перша програма](lessons/1.md)
+* :material-shape-plus-outline: [Типи даних та змінні](lessons/2.md)
 * :material-contain: Типи-контейнери
     - :material-code-brackets: списки
     - :material-code-parentheses: кортежі
