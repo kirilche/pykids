@@ -26,6 +26,29 @@
     animation: heart 1000ms infinite;
   }
 
+  .md-typeset {
+    font-size: 1rem;
+  }
+
+  /* .md-typeset .admonition {
+    font-size: 0.5rem;
+  } */
+
+  .md-typeset details {
+    font-size: 0.8rem;
+  }
+
+  .md-typeset details>p {
+    font-size: 1rem;
+  }
+
+  .md-typeset table>tbody {
+    font-size: 1rem;
+  }
+
+  .md-typeset .tabbed-labels>label {
+    font-size: .8rem;
+  }
   /* @font-face {
     font-family: museo-sans, sans-serif;
     src: url();
