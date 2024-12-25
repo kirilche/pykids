@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kirilche.github.io/pykids/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-25</lastmod>
     </url>
     <url>
-         <loc>https://kirilche.github.io/pykids/code/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <loc>https://kirilche.github.io/pykids/fundamentals/</loc>
+         <lastmod>2024-12-25</lastmod>
     </url>
     <url>
          <loc>https://kirilche.github.io/pykids/lessons/1/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-25</lastmod>
     </url>
     <url>
          <loc>https://kirilche.github.io/pykids/lessons/2/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-25</lastmod>
     </url>
     <url>
          <loc>https://kirilche.github.io/pykids/lessons/tags/</loc>
-         <lastmod>2024-12-09</lastmod>
+         <lastmod>2024-12-25</lastmod>
     </url>
 </urlset>
