@@ -14,7 +14,7 @@ tags:
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+-   :material-clock-fast:{ .lg .middle }  __Set up in 5 minutes__
 
     ---
 
@@ -23,7 +23,7 @@ tags:
 
     [:octicons-arrow-right-24: Getting started](#programming-languages)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+-   :fontawesome-brands-markdown:{ .lg .middle }  __It's just Markdown__
 
     ---
 
@@ -31,7 +31,7 @@ tags:
 
     [:octicons-arrow-right-24: Reference](#comparison)
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+-   :material-format-font:{ .lg .middle }  __Made to measure__
 
     ---
 
@@ -39,7 +39,7 @@ tags:
 
     [:octicons-arrow-right-24: Customization](#one-more)
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   :material-scale-balance:{ .lg .middle }  __Open Source, MIT__
 
     ---
 
@@ -53,7 +53,7 @@ tags:
 ???+ abstract "Визначення"
     **Мова програмування** - це набір ключових слів (переважно англійських), символів (дужки, коми, крапки, лапки, арифметичні знаки, спеціальні символи) які коли ==поєднуються у правильній== послідовності, можуть бути розпізнані інтерпретатором (чи компілятором) відповідної мови. Правильна (без синтаксичних помилок) програма може бути виконана. 
     
-    Під час виконання програми (навіть правильної) можуть та _будуть_ виникати помилки, що є сигналом програмістові продовжувати вдосконалювати код. Професійні інженери програмного забезпечення {~~ніколи не~>нерідко ~~}допускають помилки.
+    Під час виконання програми (навіть правильної) можуть та _будуть_ виникати помилки, що є сигналом програмістові продовжувати вдосконалювати код. Професійні інженери програмного забезпечення {~~ніколи не~>_нерідко\_~~} допускають помилки.
 
 - ==This was marked (highlight)==
 - ^^This was inserted (underline)^^
