@@ -73,15 +73,11 @@
     transition:all 2s;
   }
 
-  .md-typeset {
-    font-size: 1rem;
-  }
-
-  /* .md-typeset .admonition {
+  /* .md-typeset {
     font-size: 1rem;
   } */
 
-  .md-typeset details {
+  /* .md-typeset details {
     font-size: 0.8rem;
   }
 
@@ -95,7 +91,7 @@
 
   .md-typeset .tabbed-labels>label {
     font-size: .8rem;
-  }
+  } */
 
   /* @font-face {
     font-family: museo-sans, sans-serif;

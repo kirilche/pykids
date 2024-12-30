@@ -1,5 +1,5 @@
 site_name: Довідник Пайтон
-site_url: https://kirilche.github.io/pykids
+site_url: https://kirilche.github.io/pykids/
 theme:
   favicon: assets/favicon.ico
   logo: assets/logo.png
@@ -13,8 +13,8 @@ theme:
     - content.tabs.link
     - content.tooltips
     - toc.integrate
-    - navigation.instant
-    - navigation.instant.prefetch
+    # - navigation.instant !!! impacts restart button on termynal
+    # - navigation.instant.prefetch
     - navigation.tabs
     - navigation.tabs.sticky
     # - navigation.sections
