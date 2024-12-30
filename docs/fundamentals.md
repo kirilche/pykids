@@ -38,7 +38,7 @@ tags:
 
     Change the colors, fonts, language, icons, logo and more with a few lines
 
-    [:octicons-arrow-right-24: Customization](#one-more)
+    [:octicons-arrow-right-24: Customization](#python-history)
 
 -   :material-scale-balance:{ .lg .middle }  __Open Source, MIT__
 
@@ -46,7 +46,7 @@ tags:
 
     Material for MkDocs is licensed under MIT and available on [GitHub]
 
-    [:octicons-arrow-right-24: License](#and-again)
+    [:octicons-arrow-right-24: License](#text-editors)
 
 </div>
 ## Мови (Programming Languages)
@@ -96,4 +96,4 @@ for letter in "bananananannananana":
 
 ```
 
-## Текстові редактори
+## Текстові редактори (Text Editors)

@@ -98,6 +98,8 @@ plugins:
       tags_file: lessons/tags.md
 #   - offline
   - termynal:
+      title: "shell"
+      buttons: "macos"
       prompt_literal_start:
         - "$"
         - ">"
