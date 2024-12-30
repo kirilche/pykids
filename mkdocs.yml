@@ -97,6 +97,11 @@ plugins:
   - tags:
       tags_file: lessons/tags.md
 #   - offline
+  - termynal:
+      prompt_literal_start:
+        - "$"
+        - ">"
+
 
 # Extra configuration
 extra:
@@ -105,6 +110,13 @@ extra:
     Рядки: str
     Списки: list
     Словники: dict
+  # alternate:
+  #   - name: Ukrainian
+  #     link: /uk/
+  #     lang: uk
+  #   - name: Russian
+  #     link: /ru/
+  #     lang: ru
 
 watch:
   - includes

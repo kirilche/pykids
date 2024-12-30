@@ -5,12 +5,13 @@ tags:
 ---
 
 # Основи Програмування
-- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- [ ] Vestibulum convallis sit amet nisi a tincidunt
-    * [x] In hac habitasse platea dictumst
-    * [x] In scelerisque nibh non dolor mollis congue sed et metus
-    * [ ] Praesent sed risus massa
-- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
+- [x] Визначення
+- [ ] Порівняння мов
+    * [x] Табличка
+    * [x] Короткий опис Python
+    * [ ] Історія Python
+- [ ] Текстові редактори
+
 
 <div class="grid cards" markdown>
 
@@ -85,7 +86,7 @@ tags:
 | Bash        | Linux скрипти|
 | **Python**  | Скрипти, Наука, Освіта, Бекенд, Фронтенд, Великі Дані| 
 
-## one more
+## Історія Python (History)
 ```py title="Useless Code" linenums="1" hl_lines="4-5"
 for _ in "bananananannananana":
     print("hello")
@@ -95,5 +96,4 @@ for letter in "bananananannananana":
 
 ```
 
-## and again
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+## Текстові редактори
