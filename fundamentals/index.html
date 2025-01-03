@@ -442,6 +442,51 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Програмування (Basics)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arithmetic-operators" class="md-nav__link">
+    <span class="md-ellipsis">
+      Артфметичні Дії (Arithmetic Operators)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#expression-and-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Вираз та Твердження (Expression and Statement)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#input-and-output-aka-io" class="md-nav__link">
+    <span class="md-ellipsis">
+      Введення та Виведення (Input and Output aka IO)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      Розгалуження (Decision)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -695,6 +740,83 @@
 </ul>
 <h2 id="text-editors">Текстові редактори (Text Editors)<a class="headerlink" href="#text-editors" title="Permanent link">⚓︎</a></h2>
 <p>Для редагування коду Python підходять будь-які <ins>текстові</ins> редактори. Редактори типу <del>Microsoft Word</del> не підходять, бо нам потрібен лише текст і буде заважати його форматування.</p>
+<h2 id="basics">Програмування (Basics)<a class="headerlink" href="#basics" title="Permanent link">⚓︎</a></h2>
+<p>Щоб перейти до розбору ідей програмування, давай спершу з'ясуємо що в нас є.</p>
+<p>Є в нас небагато: <mark>Процесор</mark>, <mark>Пам'ять</mark>, пристрої <mark>Введення</mark> та <mark>Виведення</mark>.<br />
+Але за допомогою <ins>мов програмування</ins> та <ins>математичної логіки</ins><br />
+ми стільки всього навчились робити за допомогою <em>обмежених</em> засобів!</p>
+<h2 id="arithmetic-operators">Артфметичні Дії (Arithmetic Operators)<a class="headerlink" href="#arithmetic-operators" title="Permanent link">⚓︎</a></h2>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6z"/></svg></span> - Додавання<br />
+<span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 13H5v-2h14z"/></svg></span> - Віднімання<br />
+<span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 3h2v7.27l6.29-3.63 1 1.73L14 12l6.3 3.64-1 1.73-6.3-3.65V21h-2v-7.27l-6.31 3.63-1-1.73L10 12 3.72 8.36l1-1.73L11 10.26z"/></svg></span> - Множення<br />
+<span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m7 21 7.9-18H17L9.1 21z"/></svg></span> - Ділення<br />
+<span class="twemoji middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 3h2v7.27l6.29-3.63 1 1.73L14 12l6.3 3.64-1 1.73-6.3-3.65V21h-2v-7.27l-6.31 3.63-1-1.73L10 12 3.72 8.36l1-1.73L11 10.26z"/></svg></span><span class="twemoji middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 3h2v7.27l6.29-3.63 1 1.73L14 12l6.3 3.64-1 1.73-6.3-3.65V21h-2v-7.27l-6.31 3.63-1-1.73L10 12 3.72 8.36l1-1.73L11 10.26z"/></svg></span> - Піднесення до степеня</p>
+<p>Операції виконуються в стандартному порядку для математики:</p>
+<ul>
+<li>Степінь</li>
+<li>Дужки</li>
+<li>Множення та Ділення</li>
+<li>Додавання та Віднімання</li>
+</ul>
+<h2 id="expression-and-statement">Вираз та Твердження (Expression and Statement)<a class="headerlink" href="#expression-and-statement" title="Permanent link">⚓︎</a></h2>
+<p>якщо ми пишемо <code>2 + 3</code> то на мові комп'ютера це має вигляд на зразок:</p>
+<ol>
+<li>візьми число 2 і помісти в пам'ять</li>
+<li>візьми число 3 і помісти в пам'ять</li>
+<li>
+<p>виконай операцію додавання</p>
+<p>В даному <strong>алгоритмі</strong> (послідовності) не вистачає</p>
+</li>
+<li>
+<p>Візьми результат та помісти його в пам'ять. Поміть куди поклав результат за допомогою <mark>імені змінної</mark></p>
+</li>
+</ol>
+<p>Щоб результат не втратився, нам потрібно його якось назвати.<br />
+Дати <ins>ім'я змінній</ins>, використовуючи яке ми потім цей результат використаємо</p>
+<p><code>2 + 3</code> - це вираз (expression)<br />
+Вираз може мати <mark>значення</mark>. Значенням виразу <code>2 + 3</code> є число <code>5</code>  </p>
+<p><code>result = 2 + 3</code> - твердження (statement)<br />
+Твердження може мати <ins>результат</ins>. Результатом операції <ins>присвоєння</ins> є  </p>
+<ol>
+<li>обчислення виразу справа від знака <code>=</code> (присвоїти)</li>
+<li>присвоєння обчисленому значенню ім'я</li>
+</ol>
+<h2 id="input-and-output-aka-io">Введення та Виведення (Input and Output aka IO)<a class="headerlink" href="#input-and-output-aka-io" title="Permanent link">⚓︎</a></h2>
+<p>Пристрої Введення (<strong>Input</strong>):</p>
+<ul>
+<li>клавіатура</li>
+<li>миша</li>
+<li>контроллер</li>
+<li>веб-камера</li>
+<li>тач-пад</li>
+<li>сенсорний екран</li>
+<li>зчитувач штрих-кодів та QR-кодів</li>
+</ul>
+<p>Пристрої Виведення (<strong>Output</strong>):</p>
+<ul>
+<li>екран</li>
+<li>принтер</li>
+<li>динаміки</li>
+<li>лампочки індикації</li>
+<li>вібро-привід</li>
+<li>проектор</li>
+</ul>
+<p>Ми зосередимось на найпростіших з них - <mark>клавіатурі</mark> та <mark>екрані</mark></p>
+<p>Найпростішими джерелами вводу та цілей виводу інформації для нас будуть</p>
+<ol>
+<li>Введення символів із клавіатури</li>
+<li>Виведення символів на екран</li>
+</ol>
+<h2 id="decision">Розгалуження (Decision)<a class="headerlink" href="#decision" title="Permanent link">⚓︎</a></h2>
+<p>Коли програмі не доводиться робити вибір -- в ній відверто немає жодного сенсу.<br />
+Тому <mark>приймати рішення</mark> - це класичний функціонал всіх без виключення мов програмування.  </p>
+<p>в загальному вигляді прийняття рішень виглядає так:
+<pre class="mermaid"><code>graph LR
+  A[Початок] --&gt; B{Сталась Помилка?};
+  B --&gt;|Так| C[Хм...];
+  C --&gt; D[Відладка];
+  D --&gt; B;
+  B ----&gt;|Ні| E[Ура!];</code></pre></p>
 
 
 
