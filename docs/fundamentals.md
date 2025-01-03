@@ -6,47 +6,46 @@ tags:
 
 # Основи Програмування
 - [x] Визначення
-- [ ] Порівняння мов
+- [x] Порівняння мов
     * [x] Табличка
     * [x] Короткий опис Python
-    * [ ] Історія Python
-- [ ] Текстові редактори
+    * [x] Історія Python
+- [x] Текстові редактори
 
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle }  __Set up in 5 minutes__
+-   :material-text-short:{ .lg .middle }  __Визначення__
 
     ---
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    Що таке Мова Програмування?
 
-    [:octicons-arrow-right-24: Getting started](#programming-languages)
+    [:octicons-arrow-right-24: Перейти](#programming-languages)
 
--   :fontawesome-brands-markdown:{ .lg .middle }  __It's just Markdown__
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Reference](#comparison)
-
--   :material-format-font:{ .lg .middle }  __Made to measure__
+-   :material-select-compare:{ .lg .middle }  __Порівняння Мов__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Які ще є мови і де вони кращі?
 
-    [:octicons-arrow-right-24: Customization](#python-history)
+    [:octicons-arrow-right-24: Більше](#comparison)
 
--   :material-scale-balance:{ .lg .middle }  __Open Source, MIT__
+-   :material-history:{ .lg .middle }  __Історія Python__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Коротко про те як винайшли мову
 
-    [:octicons-arrow-right-24: License](#text-editors)
+    [:octicons-arrow-right-24: Читати](#python-history)
+
+-   :material-toolbox:{ .lg .middle }  __Редактор Коду__
+
+    ---
+
+    Які інструменти знадобляться?
+
+    [:octicons-arrow-right-24: Докладніше](#text-editors)
 
 </div>
 ## Мови (Programming Languages)
@@ -56,23 +55,6 @@ tags:
     
     Під час виконання програми (навіть правильної) можуть та _будуть_ виникати помилки, що є сигналом програмістові продовжувати вдосконалювати код. Професійні інженери програмного забезпечення {~~ніколи не~>_нерідко\_~~} допускають помилки.
 
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-
-
-=== "Unordered List"
-    ``` markdown
-    * Sed sagittis eleifend rutrum
-    * Donec vitae suscipit est
-    * Nulla tempor lobortis orci
-    ```
-=== "Ordered List"
-    ``` markdown
-    1. Sed sagittis eleifend rutrum
-    2. Donec vitae suscipit est
-    3. Nulla tempor lobortis orci
-    ```
 
 ## Порівняння мов (Comparison)
 
@@ -87,13 +69,12 @@ tags:
 | **Python**  | Скрипти, Наука, Освіта, Бекенд, Фронтенд, Великі Дані| 
 
 ## Історія Python (History)
-```py title="Useless Code" linenums="1" hl_lines="4-5"
-for _ in "bananananannananana":
-    print("hello")
-
-for letter in "bananananannananana":
-    print(letter)
-
-```
+- Python має цікаву історію, яку не складно знайти в подробицях у інтернеті.
+- Основним є те, що спочатку мову програмування написав один програміст.
+- Після викладення коду Python в інтернет над його вдосконаленням почали працювати декілька, а згодом -- ==велика кількість цікавих та розумних людей== із різних куточків земної кулі.
+- Впродовж кількох десятиліть мова вдосконалювалась, якісь частини ставали непотрібними та викидались із мови.
+- Відносно недавно вийшла версія мови Python 3 яка продовжує рости та розвиватись. Додаються нові можливості, які відповідають на нові виклики.
+- Таким чином мова еволюціонує, стає більш пристосованою до вимог сьогодення. 
 
 ## Текстові редактори (Text Editors)
+Для редагування коду Python підходять будь-які ^^текстові^^ редактори. Редактори типу ~~Microsoft Word~~ не підходять, бо нам потрібен лише текст і буде заважати його форматування.

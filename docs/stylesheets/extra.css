@@ -73,11 +73,11 @@
     transition:all 2s;
   }
 
-  /* .md-typeset {
+  .md-typeset {
     font-size: 1rem;
-  } */
+  }
 
-  /* .md-typeset details {
+  .md-typeset details {
     font-size: 0.8rem;
   }
 
@@ -89,9 +89,12 @@
     font-size: 1rem;
   }
 
+  .md-typeset table>thead {
+    font-size: 1rem;
+  }
   .md-typeset .tabbed-labels>label {
     font-size: .8rem;
-  } */
+  }
 
   /* @font-face {
     font-family: museo-sans, sans-serif;
