@@ -33,7 +33,7 @@
     to {transform: rotate(0.5turn);}
   }
   details.success[open] {
-    animation: rotate_1 1000ms 1 forwards;
+    animation: rotate_2 1000ms 1 forwards;
   }
 
   @keyframes rotate_2 {
@@ -46,12 +46,12 @@
     }
   }
   details.success:not([open]) {
-    animation: rotate_2 1000ms 1 forwards;
+    animation: rotate_1 1000ms 1 forwards;
   }
 
   details.success:hover {
     transition:all 2s;
-    filter: hue-rotate(180deg);
+    filter: hue-rotate(100deg);
     /* box-shadow: 0 1rem var(--md-default-fg-color); */
   }
 
