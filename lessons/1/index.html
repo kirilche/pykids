@@ -596,14 +596,16 @@
 <li>Використаємо вбудовану функцію (<ins>команду</ins>) <code>print()</code></li>
 </ul>
 <h2 id="_1">Перша програма (скрипт)<a class="headerlink" href="#_1" title="Permanent link">⚓︎</a></h2>
+<p>Створимо новий файл <code>filename.py</code> та додамо до нього наш код.<br />
+Найпростіша програма вміщається в один рядок</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Подвійні лапки</label><label for="__tabbed_1_2">Одинарні лапки</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Лапки рівнозначні в Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World!&quot;</span><span class="p">)</span>
+<div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Лапки рівнозначні</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello, World!&quot;</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 </div>
 <div class="tabbed-block">
-<div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Працюють так само</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, World!&#39;</span><span class="p">)</span>
+<div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Лапки рівнозначні</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, World!&#39;</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
 </div>
 </div>
@@ -624,19 +626,22 @@
 <details class="info">
 <summary>Інші цікавинки</summary>
 <p>Дослідимо як ще можна використати вбудовану функцію<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> <code>print()</code></p>
-<div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">print() приймає декілька параметрів</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<p>Що можна зробити - розділити 'Hello, World!' на 2 окремі рядки та надрукувати їх послідовно. Пробіл між ними при цьому з'явиться автоматично (так працює функція print() )</p>
+<p><div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">print() приймає декілька параметрів</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
 <span class="normal"><a href="#__codelineno-2-2">2</a></span>
 <span class="normal"><a href="#__codelineno-2-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="c1"># Це коментар, він не впливає на код, а є допомогою людям</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="c1"># print() приймає декілька параметрів</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello,&#39;</span><span class="p">,</span> <span class="s1">&#39;World!&#39;</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
-<p>В нашому випадку ми друкуємо наперед відомі значення буквально (англ.<strong><em>literal</em></strong>) - рядкові <mark class="critic">літерали</mark></p>
-<div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Конкатенація рядків</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+В нашому випадку ми друкуємо наперед відомі значення буквально (англ.<strong><em>literal</em></strong>) - рядкові <mark class="critic">літерали</mark></p>
+<p>Інший спосіб надрукувати те саме (цей спосіб часто наводиться в книжках по Python) - <mark>конкатенація</mark> фбо іншими словами "склеювання" рядків. Про пробіл між окремими словами ми маємо подбати самі, додавши його в кінець першого, або на початок наступного слова.</p>
+<p><div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Конкатенація рядків</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
 <span class="normal"><a href="#__codelineno-3-2">2</a></span>
 <span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="hll"><span class="c1"># зверніть увагу на пробіл вкінці першого слова</span>
 </span></span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello, &#39;</span> <span class="o">+</span> <span class="s1">&#39;World!&#39;</span><span class="p">)</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="hll"><span class="c1"># &#39;Hello, &#39; - це перший літерал, &#39;World!&#39; - другий</span>
 </span></span></code></pre></div></td></tr></table></div>
+Операція конкатенації буде виконана першою, а потім - друк. Таким чином на вхід функції print() ми подаємо 1 аргумент, на відміну від приклада з комою, де явно вказані 2 окремі слова(рядки, <abbr title="🟡 string - рядок (тексту)">str</abbr>).</p>
 </details>
 <div class="footnote">
 <hr />
