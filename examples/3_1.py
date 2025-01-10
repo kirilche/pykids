@@ -11,11 +11,8 @@ def start_game():
     total = Total(0, 0)
     
     while total[0] <3 and total[1] <3:
-        
         you = vvid_hodu()
-        
         it = computer_hodyt()
-        
         winner = ocinka_hodu(you[0], it[0])
         
         if winner[0] == "Людина":
@@ -32,8 +29,11 @@ def start_game():
         Його хід - {it[1]}
         
         {winner[0]} перемагає
+
         {winner[1]}
+
         {total}
+
         """
         print(message)
     if total[0] >= 3 and  total[1] >= 3:
