@@ -100,7 +100,7 @@ markdown_extensions:
 plugins:
   - search
   - tags:
-      tags_file: lessons/tags.md
+      tags_file: УРОКИ/tags.md
 #   - offline
   - termynal:
       title: "shell"

@@ -3,10 +3,10 @@
 Створено за допомогою [mkdocs.org](https://www.mkdocs.org).
 
 ## Зміст довідника { data-search-exclude }
-* :material-information-outline: Основні відомості
-* :material-cog: Налаштування середовища
-* :fontawesome-solid-1: [Перша програма](lessons/1.md)
-* :material-shape-plus-outline: [Типи даних та змінні](lessons/2.md)
+* :material-information-outline:  [Основи Програмування](fundamentals.md)
+* :material-cog: [Налаштування середовища](setup.md)
+* :fontawesome-solid-1: [Перша програма](УРОКИ/1.md)
+* :material-shape-plus-outline: [Типи даних та змінні](УРОКИ/2.md)
 * :material-contain: Типи-контейнери
     - :material-code-brackets: списки
     - :material-code-parentheses: кортежі
