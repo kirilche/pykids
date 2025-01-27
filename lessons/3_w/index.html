@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://kirilche.github.io/pykids/lessons/3_w/">
       
       
-        <link rel="prev" href="../3_summary_1/">
+        <link rel="prev" href="../3_summary_2_quiz/">
       
       
         <link rel="next" href="../4/">
@@ -519,6 +519,27 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../3_summary_2_quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Уроки 1 та 2, ТЕСТ.
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -688,7 +709,7 @@
 
 
 <h1 id="3">Урок 3<a class="headerlink" href="#3" title="Permanent link">⚓︎</a></h1>
-<details class="danger">
+<details class="warning">
 <summary>Всього лиш приклад <img alt="👉🏼" class="twemoji lg middle" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f449-1f3fc.svg" title=":point_right_tone2:" /> <ins>Детальніше</ins></summary>
 <p>УВАГА наведена нижче програма є лише прикладом рівня <span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 6h7v3h-4v4h-4v4h-4v4H3v-3h4v-4h4v-4h4zm-4.83.66-5.51 5.51-1.83-1.83 5.51-5.51L6.5 3H12v5.5z"/></svg></span> коду, який ми навчимось ЧИТАТИ ближче до кінця міні–курсу.</p>
 <p>Хтось із вас навчиться також ПИСАТИ такого рівня складності програми (що не так і просто, як могло би здатися).</p>
@@ -1046,7 +1067,117 @@
 </div>
 </div>
 </div>
-</details>
+</details><style type="text/css">.quiz {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+/* Set margin-top of first quiz child */
+.quiz > *:first-child {
+  margin-top: 0;
+}
+.hidden {
+  display: none;
+}
+
+form button {
+  background-color: var(--md-primary-fg-color);
+  border: none;
+  color: var(--md-primary-bg-color);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.wrong label {
+  color: red;
+}
+.correct label {
+  color: green;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset input {
+  margin: 0 10px;
+}
+fieldset label {
+  margin: 0 10px;
+}
+
+label.correct {
+  color: green;
+}
+label.wrong {
+  color: red;
+}
+input[type='radio'].correct {
+  accent-color: green;
+}
+input[type='radio'].wrong {
+  accent-color: red;
+}
+.content {
+  margin: 10px;
+}
+</style><script type="text/javascript" defer>document.querySelectorAll('.quiz').forEach((quiz) => {
+  let form = quiz.querySelector('form');
+  let fieldset = form.querySelector('fieldset');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    let selectedAnswers = form.querySelectorAll('input[name="answer"]:checked');
+    let correctAnswers = fieldset.querySelectorAll(
+      'input[name="answer"][correct]'
+    );
+    // Check if all correct answers are selected
+    let is_correct = selectedAnswers.length === correctAnswers.length;
+    for (let i = 0; i < selectedAnswers.length; i++) {
+      if (!selectedAnswers[i].hasAttribute('correct')) {
+        is_correct = false;
+        break;
+      }
+    }
+    let section = quiz.querySelector('section');
+    if (is_correct) {
+      section.classList.remove('hidden');
+      resetFieldset(fieldset);
+      // Mark all fields with colors
+      const allAnswers = fieldset.querySelectorAll('input[name="answer"]');
+      for (let i = 0; i < allAnswers.length; i++) {
+        if (allAnswers[i].hasAttribute('correct')) {
+          allAnswers[i].parentElement.classList.add('correct');
+        } else {
+          allAnswers[i].parentElement.classList.add('wrong');
+        }
+      }
+    } else {
+      section.classList.add('hidden');
+      resetFieldset(fieldset);
+      // Mark wrong fields with colors
+      for (let i = 0; i < selectedAnswers.length; i++) {
+        if (!selectedAnswers[i].hasAttribute('correct')) {
+          selectedAnswers[i].parentElement.classList.add('wrong');
+        } else {
+          selectedAnswers[i].parentElement.classList.add('correct');
+        }
+      }
+    }
+  });
+});
+
+function resetFieldset(fieldset) {
+  const fieldsetChildren = fieldset.children;
+  for (let i = 0; i < fieldsetChildren.length; i++) {
+    fieldsetChildren[i].classList.remove('wrong');
+    fieldsetChildren[i].classList.remove('correct');
+  }
+}
+</script>
 
 
 
@@ -1087,7 +1218,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Футер" >
         
           
-          <a href="../3_summary_1/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Уроки 1 та 2, підсумки.">
+          <a href="../3_summary_2_quiz/" class="md-footer__link md-footer__link--prev" aria-label="Назад: Уроки 1 та 2, ТЕСТ.">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1097,7 +1228,7 @@
                 Назад
               </span>
               <div class="md-ellipsis">
-                Уроки 1 та 2, підсумки.
+                Уроки 1 та 2, ТЕСТ.
               </div>
             </div>
           </a>

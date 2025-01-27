@@ -645,6 +645,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../3_summary_2_quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Уроки 1 та 2, ТЕСТ.
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../3_w/" class="md-nav__link">
         
   
@@ -777,8 +798,12 @@
 <td style="text-align: center;">порожній рядок. Дві одинарні лапки <strong>'</strong></td>
 </tr>
 <tr>
-<td style="text-align: center;">"Мене звати"</td>
-<td style="text-align: center;">замість одинарних лапок можна ставити <strong>"</strong></td>
+<td style="text-align: center;"><em>Приклад</em></td>
+<td style="text-align: center;"><code>my_new_cat_name = '' # ще не вирішили, дамо ім'я потім</code></td>
+</tr>
+<tr>
+<td style="text-align: center;">"Моє ім'я Роберт"</td>
+<td style="text-align: center;">замість одинарних лапок можна ставити <strong>"</strong> особливо якщо сам рядок містить апостроф</td>
 </tr>
 <tr>
 <td style="text-align: center;">"🤖 я\tробот"</td>
@@ -800,7 +825,7 @@
 <h2 id="declare-vs-definition">Декларація та Визначення (Declare vs Definition)<a class="headerlink" href="#declare-vs-definition" title="Permanent link">⚓︎</a></h2>
 <p>Перша згадка змінної завжди особлива. Вона зветься <mark>ДЕКЛАРАЦІЯ</mark>. Це ще один універсальний термін, який ви маєте знати незалежно від мови програмування, на якій пишете. Всі програмісти знають цей термін та у всіх без виключення мовах є механізм прямо чи опосередковано, явно або неявно задекларувати змінну.  </p>
 <details class="tip" open="open">
-<summary>неявна декларація</summary>
+<summary>Неявна декларація</summary>
 <p>Декларація змінної в Пайтон відбувається <mark>неявно</mark>, немає якогось особливого слова, яке створить змінну, не надавши їй значення.<br />
 Отже змінна створиться та задекларується в момент першого присвоєння їй значення.<br />
 В інших мовах може існувати механізм створення змінної без початкового значення, або з нульовим значенням.</p>
@@ -879,19 +904,149 @@
 <li>не приймає жодних рішень</li>
 <li>не містить циклів та повторень</li>
 </ul>
+<details class="tip" open="open">
+<summary>Ліворуч чи Праворуч?</summary>
+<p>Ім'я змінної може писатись:</p>
+<ul>
+<li>ліворуч від знака <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 10H5V8h14zm0 6H5v-2h14z"/></svg></span></li>
+<li>праворуч від <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 10H5V8h14zm0 6H5v-2h14z"/></svg></span> чи в дужках після імені функції або ж в f-рядку</li>
+<li>одночасно і ліворуч і праворуч від <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 10H5V8h14zm0 6H5v-2h14z"/></svg></span></li>
+</ul>
+<p>в чому ж різниця? Ліворуч від знака <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 10H5V8h14zm0 6H5v-2h14z"/></svg></span> ім'я змінної значить</p>
+<p>"Пайтоне, дай ім'я тому, що праворуч та <strong>запиши</strong> в Пам'ять <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 64C28.7 64 0 92.7 0 128v7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6V320h576v-71.4c0-6.8-4.4-12.6-10.1-16.3-13.2-8.6-21.9-23.4-21.9-40.3s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3V128c0-35.3-28.7-64-64-64zm512 288H0v64c0 17.7 14.3 32 32 32h48v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h48c17.7 0 32-14.3 32-32zM192 160v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64c0-17.7 14.3-32 32-32s32 14.3 32 32m128 0v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64c0-17.7 14.3-32 32-32s32 14.3 32 32m128 0v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64c0-17.7 14.3-32 32-32s32 14.3 32 32"/></svg></span>"</p>
+<p>Навідміну від цього, праворуч або в дужках значитиме</p>
+<p>"Пайтоне, <strong>прочитай</strong> значення, яке зберігається в Пам'яті  <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M64 64C28.7 64 0 92.7 0 128v7.4c0 6.8 4.4 12.6 10.1 16.3C23.3 160.3 32 175.1 32 192s-8.7 31.7-21.9 40.3C4.4 236 0 241.8 0 248.6V320h576v-71.4c0-6.8-4.4-12.6-10.1-16.3-13.2-8.6-21.9-23.4-21.9-40.3s8.7-31.7 21.9-40.3c5.7-3.7 10.1-9.5 10.1-16.3V128c0-35.3-28.7-64-64-64zm512 288H0v64c0 17.7 14.3 32 32 32h48v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h96v-32c0-8.8 7.2-16 16-16s16 7.2 16 16v32h48c17.7 0 32-14.3 32-32zM192 160v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64c0-17.7 14.3-32 32-32s32 14.3 32 32m128 0v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64c0-17.7 14.3-32 32-32s32 14.3 32 32m128 0v64c0 17.7-14.3 32-32 32s-32-14.3-32-32v-64c0-17.7 14.3-32 32-32s32 14.3 32 32"/></svg></span>  за цією адресою"</p>
+</details>
 <h2 id="_5">Детальний розбір<a class="headerlink" href="#_5" title="Permanent link">⚓︎</a></h2>
 <p>Давайте розберем програму рядок за рядком
 <div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Ввід рядку (тип str)</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Введіть своє ім&#39;я: &quot;</span><span class="p">)</span>
 </span></code></pre></div></td></tr></table></div>
-Тут ми створили змінну <code>name</code> та присвоїли їй значення, яке повернула стандартна функція <code>input()</code>  </p>
+Тут ми створили змінну <code>name</code> та присвоїли їй значення, яке повернула стандартна функція <code>input()</code>.  </p>
+<blockquote>
+<p>функція <code>input()</code> завжди повертає рядок (тип <code>str</code>) навіть якщо користувач введе самі цифри</p>
+</blockquote>
+<p>Пайтон <strong>записав значення</strong> до змінної під назвою <code>name</code></p>
 <p><div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">str з подальшим перетворенням в число (int)</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-8-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Введіть свій вік: &quot;</span><span class="p">))</span>
 </span></code></pre></div></td></tr></table></div>
-функція <code>input()</code> знаходиться всередині дужок функції <code>int()</code> тому буде виконана першою за правилами <mark>композиції функцій</mark><br />
-Результат ми запишемо до змінної <code>age</code>, яка буде <del class="critic">рядком</del><ins class="critic">_цілим числом_</ins>.
+функція <code>input()</code> знаходиться всередині дужок функції <code>int()</code> тому буде виконана першою за правилами <mark>композиції функцій</mark>.  </p>
+<blockquote>
+<p>Результат <code>int(input("..."))</code> ми запишемо до змінної <code>age</code>, яка буде <del class="critic">рядком</del><ins class="critic">_цілим числом_</ins> (завдяки функції <code>int()</code>)</p>
+</blockquote>
 <div class="language-py highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">друк f-рядку. Зверніть увагу на фігурні дужки</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-9-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;👋 Привіт, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1">!</span><span class="se">\n</span><span class="s1">Ти святкуватимеш 🥳 свій </span><span class="si">{</span><span class="n">age</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="si">}</span><span class="s1">ий 🎉 День Народження 🎂&#39;</span><span class="p">)</span>
-</span></code></pre></div></td></tr></table></div></p>
-<p>в перших  <em>фігурних</em> дужках маємо просто змінну <code>name</code>, в других дужках ми виконуємо дію додавання</p>
-<p>Також ми використали спеціальну послідовність <code>\n</code> щоб надрукувати <span class="keys"><kbd class="key-enter">Enter</kbd></span></p>
+</span></code></pre></div></td></tr></table></div>
+<p>в перших  <em>фігурних</em> дужках маємо просто змінну <code>name</code>, в других дужках ми виконуємо дію додавання.  </p>
+<p>Пайтон <strong>зчитав значення</strong> змінних <code>age</code> та <code>name</code> та зкомбінував їх та наперед заготовлений текстовий шаблон.</p>
+<p>Також ми використали спеціальну послідовність <code>\n</code> щоб надрукувати <span class="keys"><kbd class="key-enter">Enter</kbd></span></p><style type="text/css">.quiz {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+/* Set margin-top of first quiz child */
+.quiz > *:first-child {
+  margin-top: 0;
+}
+.hidden {
+  display: none;
+}
+
+form button {
+  background-color: var(--md-primary-fg-color);
+  border: none;
+  color: var(--md-primary-bg-color);
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.wrong label {
+  color: red;
+}
+.correct label {
+  color: green;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+fieldset input {
+  margin: 0 10px;
+}
+fieldset label {
+  margin: 0 10px;
+}
+
+label.correct {
+  color: green;
+}
+label.wrong {
+  color: red;
+}
+input[type='radio'].correct {
+  accent-color: green;
+}
+input[type='radio'].wrong {
+  accent-color: red;
+}
+.content {
+  margin: 10px;
+}
+</style><script type="text/javascript" defer>document.querySelectorAll('.quiz').forEach((quiz) => {
+  let form = quiz.querySelector('form');
+  let fieldset = form.querySelector('fieldset');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    let selectedAnswers = form.querySelectorAll('input[name="answer"]:checked');
+    let correctAnswers = fieldset.querySelectorAll(
+      'input[name="answer"][correct]'
+    );
+    // Check if all correct answers are selected
+    let is_correct = selectedAnswers.length === correctAnswers.length;
+    for (let i = 0; i < selectedAnswers.length; i++) {
+      if (!selectedAnswers[i].hasAttribute('correct')) {
+        is_correct = false;
+        break;
+      }
+    }
+    let section = quiz.querySelector('section');
+    if (is_correct) {
+      section.classList.remove('hidden');
+      resetFieldset(fieldset);
+      // Mark all fields with colors
+      const allAnswers = fieldset.querySelectorAll('input[name="answer"]');
+      for (let i = 0; i < allAnswers.length; i++) {
+        if (allAnswers[i].hasAttribute('correct')) {
+          allAnswers[i].parentElement.classList.add('correct');
+        } else {
+          allAnswers[i].parentElement.classList.add('wrong');
+        }
+      }
+    } else {
+      section.classList.add('hidden');
+      resetFieldset(fieldset);
+      // Mark wrong fields with colors
+      for (let i = 0; i < selectedAnswers.length; i++) {
+        if (!selectedAnswers[i].hasAttribute('correct')) {
+          selectedAnswers[i].parentElement.classList.add('wrong');
+        } else {
+          selectedAnswers[i].parentElement.classList.add('correct');
+        }
+      }
+    }
+  });
+});
+
+function resetFieldset(fieldset) {
+  const fieldsetChildren = fieldset.children;
+  for (let i = 0; i < fieldsetChildren.length; i++) {
+    fieldsetChildren[i].classList.remove('wrong');
+    fieldsetChildren[i].classList.remove('correct');
+  }
+}
+</script>
 
 
 
