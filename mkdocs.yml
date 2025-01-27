@@ -98,8 +98,9 @@ markdown_extensions:
       permalink: ⚓︎
 
 plugins:
-  - mkdocs_quiz
   - search
+  - awesome-pages
+  - mkdocs_quiz
   - tags:
       tags_file: lessons/tags.md
 #   - offline
