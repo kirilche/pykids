@@ -112,6 +112,7 @@ plugins:
         - ">"
         - ">>>"
         - "Введіть команду:"
+        - "Ваш хід:"
 
 
 # Extra configuration
