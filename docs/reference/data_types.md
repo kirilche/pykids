@@ -51,3 +51,6 @@ tags:
     def choose_game(my_fav_things: dict[str, Any]) -> str:
         ...
     ```
+
+    [COLAB (присвоєння)](https://colab.research.google.com/drive/1TntBf2_C8IEiS7mjGiT4z_WCIxLN0sK2)
+    
